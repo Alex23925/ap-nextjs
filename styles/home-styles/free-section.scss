@@ -65,3 +65,40 @@ $darkbg: #121212;
     text-align: center;
     margin-left: 5%;
 }
+
+@media only screen and (min-width: 768px) {
+    .free-section-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(1, 700px);
+        //background-color: black;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+
+    .assistance-img-container {
+        display: block;
+        width: 100%;
+        margin-left: 0 auto;
+    }
+
+    .assistance-img {
+        max-width: 400px;
+        margin-left: 18%;
+        filter: blur(0);
+        -webkit-filter: blur(0);
+    }
+
+    .free-txt {
+        text-align: center;
+    }
+
+    .free-title {
+        text-align: center;
+    }
+
+    .free-assistance-summary {
+        text-align: center;
+    }
+}

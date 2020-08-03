@@ -43,3 +43,27 @@ $darkbg: #121212;
     padding: 5%;
     border: none;
 }
+
+@media only screen and (min-width: 768px) {
+    // Free Guide Container
+    .free-guide-container {
+        margin-top: -5%;
+        width: 100%;
+        border-top: solid 2px $primaryclr;
+    }
+    .free-guide-title {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .free-guide-btn--styles {
+        cursor: pointer;
+        font-size: 45px;
+        padding: 1%;
+        transition: all 0.2s;
+    }
+
+    .free-guide-btn--styles:hover {
+        transform: scale(0.95);
+    }
+}
