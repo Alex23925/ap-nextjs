@@ -70,14 +70,15 @@ $darkbg: #121212;
 
 .btn-container {
     margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-path {
     background-color: $primaryclr;
     text-align: center;
     margin-top: 5%;
-    margin-left: 32%;
-    margin-right: 25%;
 }
 
 .btn-path--styles {
