@@ -34,6 +34,10 @@ export default class Home extends Component {
             <Head>
                 <title>Authors Press</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta
+                    name="description"
+                    content={`Authors Press is the sole owner of Creative Books and Authorial Magazine. We take pride in creating milestones in the literary industry. `}
+                />
             </Head>
             <Burger setBurgerClicked={this.setBurgerClicked} />
             <DesktopNavbar />
