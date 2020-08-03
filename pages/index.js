@@ -9,6 +9,7 @@ import FreeGuide from '../components/homeComponents/FreeGuide';
 import Footer from '../components/Footer';
 
 const Navbar = dynamic(() => import("../components/Navbar"));
+const DesktopNavbar = dynamic(() => import("../components/DesktopNavbar"));
 const Slogan = dynamic(() => import("../components/homeComponents/Slogan"));
 const Services = dynamic(() => import("../components/homeComponents/Services"));
 
@@ -35,6 +36,7 @@ export default class Home extends Component {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Burger setBurgerClicked={this.setBurgerClicked} />
+            <DesktopNavbar />
             <Navbar burgerClicked={this.state.burgerClicked} />
             <Slogan />
             <Services />

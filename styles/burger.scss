@@ -110,7 +110,10 @@ $content-bg: #021eb5;
 }
 
 @media only screen and (min-width: 768px) {
-    .burgerContainer {
+    .bg-nav {
+        display: none;
+    }
+    .burger-container {
         display: none;
     }
 }
