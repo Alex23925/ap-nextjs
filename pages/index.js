@@ -31,6 +31,7 @@ export default class Home extends Component {
                 <title>Authors Press</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+            <h1>I LOVE YOU CUTIE</h1>
             <Burger setBurgerClicked={this.setBurgerClicked} />
             <Navbar burgerClicked={this.state.burgerClicked} />
             <Slogan />
