@@ -24,6 +24,7 @@ export class Services extends Component {
                     description:
                         "Achieve your dream of becoming a published author through Authors Press’ publishing packages including specially designed packages that tailor fit your publishing needs.",
                     btnPath: "/PublishingPackages",
+                    btnTxt: "Create your book",
                 },
                 {
                     icon: (
@@ -37,6 +38,7 @@ export class Services extends Component {
                     description:
                         "The great Stephen King once said in his book On Writing, “To write is human, to edit is divine.” Editing transforms a manuscript from ordinary to extraordinary. No matter how skilled of a writer we are.",
                     btnPath: "/PublishingPackages",
+                    btnTxt: "Pick your editing needs",
                 },
                 {
                     icon: (
@@ -50,6 +52,7 @@ export class Services extends Component {
                     description:
                         "Publishing a book is one thing; delivering it to the right audiences is another. Authors Press provides various marketing strategies that ensures progressive and remarkable.",
                     btnPath: "/PublishingPackages",
+                    btnTxt: "Pick your audience",
                 },
             ],
         };

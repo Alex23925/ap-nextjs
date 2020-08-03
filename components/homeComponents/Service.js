@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "../../styles/home-styles/service.scss"
 export class Service extends Component {
     render() {
-        const { icon, title, description, btnPath } = this.props.service;
+        const { icon, title, description, btnPath, btnTxt } = this.props.service;
         return (
             <div className="service service--styles">
                 <div className="icon-container icon-container--styles">
@@ -27,7 +27,7 @@ export class Service extends Component {
                         className="navBar-link"
                         style={{ textDecoration: "none" }}
                     >
-                        <a className="btn-path btn-path--styles">Learn More</a>
+                        <a className="btn-path btn-path--styles">{btnTxt}</a>
                     </Link>
                 </div>
             </div>
