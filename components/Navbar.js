@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
-import styles from "../styles/Navbar.module.scss";
+import styles from "../styles/navbar.scss";
 
 export default class Navbar extends Component {
     render() {
