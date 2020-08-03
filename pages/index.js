@@ -4,14 +4,16 @@ import styles from '../styles/home.scss'
 import Burger from '../components/Burger'
 
 import React, { Component } from "react";
-import FreeSection from '../components/homeComponents/FreeSection';
-import FreeGuide from '../components/homeComponents/FreeGuide';
-import Footer from '../components/Footer';
+
+const Layout = dynamic(() => import("../components/Layout"));
 
 const Navbar = dynamic(() => import("../components/Navbar"));
 const DesktopNavbar = dynamic(() => import("../components/DesktopNavbar"));
 const Slogan = dynamic(() => import("../components/homeComponents/Slogan"));
 const Services = dynamic(() => import("../components/homeComponents/Services"));
+const FreeSection = dynamic(() => import("../components/homeComponents/FreeSection"));
+const FreeGuide = dynamic(() => import("../components/homeComponents/FreeGuide"));
+const Footer = dynamic(() => import( "../components/Footer"));
 
 export default class Home extends Component {
   constructor(props) {
