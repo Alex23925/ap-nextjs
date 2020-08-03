@@ -9,7 +9,7 @@ $thirdclr: #02b59a;
 $darkbg: #121212;
 
 .services-title {
-    padding-top: 8%;
+    padding-top: 1%;
     text-align: center;
 }
 
@@ -37,37 +37,6 @@ $darkbg: #121212;
         margin-bottom: 2%;
         display: grid;
         grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(1, 480px);
-    }
-
-    .service {
-        border: 2px solid lightblue;
-    }
-
-    .fas {
-        font-size: 80px;
-    }
-
-    .icon-container {
-        width: 140px;
-        height: 140px;
-        display: inline-block;
-        margin-left: 34%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    .icon--styles {
-        color: white;
-        opacity: 0.9;
-    }
-
-    .title-container {
-        margin-top: 1%;
-        margin-bottom: 5%;
-    }
-
-    .title--styles {
-        font-size: 25px;
+        grid-template-rows: repeat(1, 450px);
     }
 }

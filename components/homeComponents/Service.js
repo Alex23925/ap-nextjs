@@ -10,8 +10,10 @@ export class Service extends Component {
         const { icon, title, description, btnPath, btnTxt } = this.props.service;
         return (
             <div className="service service--styles">
-                <div className="icon-container icon-container--styles">
-                    {icon}
+                <div className="icon-centering">
+                    <div className="icon-container icon-container--styles">
+                        {icon}
+                    </div>
                 </div>
                 <div className="title-container">
                     <h2 className="title title--styles">{title}</h2>
