@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font: "Roboto", sans-serif;
+$font2: "Open Sans", sans-serif;
+$primaryclr: #8fb4ca;
+$secondaryclr: #021eb5;
+$thirdclr: #02b59a;
+$darkbg: #121212;
+
+.free-section-container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(2, 720px);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.free-assistance-container {
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.free-txt {
+    left: 2%;
+    right: 2%;
+}
+
+.free-title {
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.free-title--styles {
+    font-family: $font;
+    font-size: 30px;
+    font-weight: 600;
+    color: $secondaryclr;
+}
+
+.free-assistance-summary {
+    text-align: center;
+    margin-left: 5%;
+}
+
+.free-summary--styles {
+    font-family: $font2;
+    font-size: 22px;
+    line-height: 30px;
+    color: $secondaryclr;
+}
+
+.assistance-img {
+    max-width: 408px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.free-registration-container {
+    position: relative;
+}
+
+.free-registration-summary {
+    text-align: center;
+    margin-left: 5%;
+}

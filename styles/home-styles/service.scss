@@ -68,15 +68,20 @@ $darkbg: #121212;
     color: $primaryclr;
 }
 
+.btn-container {
+    margin-top: 7%;
+}
+
 .btn-path {
     background-color: $primaryclr;
     text-align: center;
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 32%;
     margin-right: 25%;
 }
 
 .btn-path--styles {
+    text-decoration: none;
     font-family: $font;
     font-weight: 500;
     font-size: 20px;

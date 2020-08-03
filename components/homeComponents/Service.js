@@ -21,15 +21,15 @@ export class Service extends Component {
                         {description}
                     </p>
                 </div>
-                <Link
-                    href={btnPath}
-                    className="navBar-link"
-                    style={{ textDecoration: "none" }}
-                >
-                    <div className="btn-path-container btn-path-container--styles">
+                <div className="btn-container">
+                    <Link
+                        href={btnPath}
+                        className="navBar-link"
+                        style={{ textDecoration: "none" }}
+                    >
                         <a className="btn-path btn-path--styles">Learn More</a>
-                    </div>
-                </Link>
+                    </Link>
+                </div>
             </div>
         );
     }

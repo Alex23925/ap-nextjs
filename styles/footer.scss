@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font: "Roboto", sans-serif;
+$font2: "Open Sans", sans-serif;
+$primaryclr: #8fb4ca;
+$secondaryclr: #021eb5;
+$thirdclr: #02b59a;
+$darkbg: #121212;
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 5%;
+    width: 102%;
+    height: 800px;
+    background-color: $darkbg;
+}
+
+.left-child {
+    padding-top: 1%;
+    height: 80px;
+}
+
+.socials-container {
+    margin-top: 30%;
+}
+
+.socials-title {
+    text-align: center;
+}
+
+.socials-title--styles {
+    font-family: $font;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.socials {
+    width: 75%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    color: lighten($color: $primaryclr, $amount: 50);
+}
+
+.fab {
+    text-align: center;
+}
+
+.payments-container {
+    margin-bottom: 8%;
+}
+
+.payments {
+    width: 75%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.payments-title {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.payments-title--styles {
+    font-family: $font;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.payment-container {
+    border: 2px solid;
+}
+
+.payment {
+    width: 100px;
+    height: 45px;
+    color: lighten($color: $primaryclr, $amount: 50);
+}
+
+.footer-info-container {
+    margin-top: 5%;
+    //border: 2px solid red;
+}
+
+.footer-info {
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+.footer-info--styles {
+    font-family: $font2;
+    color: white;
+    font-size: 32px;
+}
+
+.info {
+    margin-right: 2%;
+}
+
+.info-txt {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.site-overview-container {
+    border-top: solid 2px $primaryclr;
+}
+.site-overview {
+    text-align: center;
+    padding: 5%;
+}
+
+.site-overview--styles {
+    font-family: $font2;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+
+.policies {
+    border-top: solid 2px $primaryclr;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 5%;
+}
+
+.policy--styles {
+    font-family: $font2;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright--styles {
+    font-family: $font2;
+    font-size: 14px;
+    color: white;
+}

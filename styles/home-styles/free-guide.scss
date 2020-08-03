@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font: "Roboto", sans-serif;
+$font2: "Open Sans", sans-serif;
+$primaryclr: #8fb4ca;
+$secondaryclr: #021eb5;
+$thirdclr: #02b59a;
+$darkbg: #121212;
+
+.free-guide-container {
+    margin-top: -40%;
+    width: 100%;
+    border-top: solid 2px $primaryclr;
+}
+
+.free-guide-title {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.free-guide-title--styles {
+    font-family: $font;
+    font-size: $secondaryclr;
+    font-weight: 600;
+    color: $secondaryclr;
+    font-size: 25px;
+}
+
+.free-guide-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-guide-btn--styles {
+    font-family: $font2;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: $primaryclr;
+    color: white;
+    padding: 5%;
+    border: none;
+}

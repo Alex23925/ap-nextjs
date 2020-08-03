@@ -4,6 +4,9 @@ import styles from '../styles/home.scss'
 import Burger from '../components/Burger'
 
 import React, { Component } from "react";
+import FreeSection from '../components/homeComponents/FreeSection';
+import FreeGuide from '../components/homeComponents/FreeGuide';
+import Footer from '../components/Footer';
 
 const Navbar = dynamic(() => import("../components/Navbar"));
 const Slogan = dynamic(() => import("../components/homeComponents/Slogan"));
@@ -31,11 +34,13 @@ export default class Home extends Component {
                 <title>Authors Press</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1>I LOVE YOU CUTIE</h1>
             <Burger setBurgerClicked={this.setBurgerClicked} />
             <Navbar burgerClicked={this.state.burgerClicked} />
             <Slogan />
             <Services />
+            <FreeSection />
+            <FreeGuide />
+            <Footer />
             
         </div>
     );
