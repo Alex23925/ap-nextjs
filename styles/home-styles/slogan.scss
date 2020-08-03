@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font: "Roboto", sans-serif;
+$font2: "Open Sans", sans-serif;
+$primaryclr: #8fb4ca;
+$secondaryclr: #021eb5;
+$thirdclr: #02b59a;
+$darkbg: #121212;
+
+.book-img {
+    max-width: 414px;
+}
+
+.slogan-container {
+    border-bottom: 2px solid lighten($color: $primaryclr, $amount: 20);
+}
+
+.slogan {
+    padding: 5%;
+    text-align: center;
+}
+
+.slogan--styles {
+    font-family: $font;
+    font-size: 25px;
+    font-weight: 800;
+    color: $secondaryclr;
+}
+
+.slogan-description {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+.slogan-description--styles {
+    font-size: 14px;
+    font-family: $font2;
+    color: $primaryclr;
+    line-height: 25px;
+}

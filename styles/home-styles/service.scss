@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font: "Roboto", sans-serif;
+$font2: "Open Sans", sans-serif;
+$primaryclr: #8fb4ca;
+$secondaryclr: #021eb5;
+$thirdclr: #02b59a;
+$darkbg: #121212;
+
+.service {
+    margin-bottom: 4%;
+    border: 2px solid lighten($color: $primaryclr, $amount: 50);
+}
+
+.service--styles {
+    border-radius: 15px;
+}
+
+.icon-container {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin-left: 37%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.icon-container--styles {
+    border-radius: 100px;
+    background-color: $primaryclr;
+}
+
+.icon {
+    margin-left: 24%;
+    margin-top: 20%;
+}
+.icon--styles {
+    color: white;
+    opacity: 0.9;
+}
+
+.title-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title {
+    text-align: center;
+}
+
+.title--styles {
+    font-size: 22px;
+    font-family: $font;
+    font-weight: 800;
+    color: $secondaryclr;
+}
+.description {
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.description--styles {
+    font-size: 14px;
+    line-height: 23px;
+    font-family: $font2;
+    color: $primaryclr;
+}
+
+.btn-path {
+    background-color: $primaryclr;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+
+.btn-path--styles {
+    font-family: $font;
+    font-weight: 500;
+    font-size: 20px;
+    color: lighten($color: $primaryclr, $amount: 60);
+    padding: 4%;
+    border-radius: 50px;
+}

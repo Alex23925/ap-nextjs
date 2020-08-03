@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+$font: "Roboto", sans-serif;
+$primaryclr: #8fb4ca;
+$secondaryclr: #021eb5;
+
+.hide {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+}
+
+.navbar-container {
+    position: absolute;
+    width: 95%;
+    margin-left: 2.5%;
+    height: 65px;
+}
+
+.navbar-container--styles {
+    border-radius: 5px;
+    background-color: $secondaryclr;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+        0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+.link:active {
+    color: white;
+}
+
+.link--styles {
+    text-decoration: none;
+    font-family: $font;
+    font-weight: 600;
+    color: lighten($color: $secondaryclr, $amount: 40);
+}

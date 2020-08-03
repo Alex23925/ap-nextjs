@@ -1,65 +1,42 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import dynamic from 'next/dynamic'
+import styles from '../styles/home.scss'
+import Burger from '../components/Burger'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+import React, { Component } from "react";
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+const Navbar = dynamic(() => import("../components/Navbar"));
+const Slogan = dynamic(() => import("../components/homeComponents/Slogan"));
+const Services = dynamic(() => import("../components/homeComponents/Services"));
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+export default class Home extends Component {
+  constructor(props) {
+        super(props);
+        this.state = {
+            burgerClicked: false,
+        };
+        this.setBurgerClicked = this.setBurgerClicked.bind(this);
+    }
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    setBurgerClicked(clicked) {
+        //console.log(clicked);
+        this.setState({
+            burgerClicked: clicked,
+        });
+    }
+  render() {
+    return (
+        <div className="page-wrapper">
+            <Head>
+                <title>Authors Press</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Burger setBurgerClicked={this.setBurgerClicked} />
+            <Navbar burgerClicked={this.state.burgerClicked} />
+            <Slogan />
+            <Services />
+            
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    );
+  }
 }

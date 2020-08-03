@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font: "Roboto", sans-serif;
+$font2: "Open Sans", sans-serif;
+$primaryclr: #8fb4ca;
+$secondaryclr: #021eb5;
+$thirdclr: #02b59a;
+$darkbg: #121212;
+
+.services-title {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.service-title--styles {
+    font-family: $font;
+    font-size: 45px;
+    font-weight: 800;
+    color: $secondaryclr;
+}
+
+.services-list-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 1.4%;
+    padding: 4%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 450px);
+    border-bottom: 2px solid lightgrey;
+}
