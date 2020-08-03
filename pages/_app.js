@@ -5,6 +5,7 @@ import {
     faMapMarkerAlt,
     faPhone,
     faAt,
+    faAngleRight
 } from "@fortawesome/free-solid-svg-icons";
 import {
     faFacebook,

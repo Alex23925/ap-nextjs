@@ -5,6 +5,7 @@ import { faSwatchbook, faEdit, faCubes } from "@fortawesome/free-solid-svg-icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import styles from "../../styles/home-styles/service.scss"
+
 export class Service extends Component {
     render() {
         const { icon, title, description, btnPath, btnTxt } = this.props.service;

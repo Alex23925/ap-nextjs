@@ -37,7 +37,7 @@ $darkbg: #121212;
 .free-guide-btn--styles {
     font-family: $font2;
     font-size: 20px;
-    border-radius: 50px;
+    border-radius: 15px;
     background-color: $primaryclr;
     color: white;
     padding: 5%;
@@ -65,5 +65,6 @@ $darkbg: #121212;
 
     .free-guide-btn--styles:hover {
         transform: scale(0.95);
+        background-color: darken($color: $primaryclr, $amount: 10);
     }
 }

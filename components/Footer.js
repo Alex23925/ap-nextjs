@@ -16,7 +16,6 @@ function Footer() {
             <div className="left-child">
                 <div className="footer-info-container">
                     <div className="flex footer-info footer-info--styles">
-                        <i class="info fas fa-map-marker-alt"></i>
                         <FontAwesomeIcon
                             className="info"
                             icon={["fa", "map-marker-alt"]}

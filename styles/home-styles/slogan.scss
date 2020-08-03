@@ -79,3 +79,10 @@ $darkbg: #121212;
         line-height: 42px;
     }
 }
+
+@media only screen and (max-width: 380px) {
+    .book-img {
+        padding-top: 10%;
+        max-width: 480px;
+    }
+}
