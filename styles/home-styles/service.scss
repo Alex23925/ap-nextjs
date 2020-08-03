@@ -79,6 +79,12 @@ $darkbg: #121212;
     background-color: $primaryclr;
     text-align: center;
     margin-top: 5%;
+    transition: all 0.3s;
+}
+
+.btn-path:hover {
+    transform: scale(0.95);
+    background-color: darken($color: $primaryclr, $amount: 10);
 }
 
 .btn-path--styles {

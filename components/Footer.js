@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
     faMapMarkerAlt,
     faPhone,
@@ -41,6 +43,15 @@ function Footer() {
                             style={{ width: "32px" }}
                         />
                         <h2 className="info-txt">info@authorspress.com</h2>
+                    </div>
+                    <div className="certificate">
+                        <a href="https://www.bbb.org/us/ca/pittsburg/profile/publishers/authors-press-1116-896738/#sealclick">
+                            <img
+                                className="certificate-img"
+                                src="https://seal-goldengate.bbb.org/seals/blue-seal-200-65-bbb-896738.png"
+                                alt="logo"
+                            />
+                            </a>
                     </div>
                 </div>
             </div>

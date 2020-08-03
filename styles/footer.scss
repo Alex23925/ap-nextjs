@@ -25,6 +25,10 @@ $darkbg: #121212;
     height: 80px;
 }
 
+.certificate {
+    display: none;
+}
+
 .socials-container {
     margin-top: 30%;
 }
@@ -175,6 +179,15 @@ $darkbg: #121212;
         grid-template-columns: 40% auto;
     }
 
+    .certificate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .certificate-img {
+        max-width: 200px;
+    }
     .icons-child {
         display: grid;
         grid-template-columns: 50% auto;
