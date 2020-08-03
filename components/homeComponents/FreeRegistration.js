@@ -9,7 +9,7 @@ function FreeRegistration() {
                 />
             </div>
             <div className="free-txt free-txt--styles">
-                <h1 className="free-title free-title--styles">
+                <h1 className="free-title free-title--styles registration-title">
                     FREE REGISTRATION
                 </h1>
                 <p className="free-registration-summary free-summary--styles">

@@ -44,3 +44,12 @@ $secondaryclr: #021eb5;
     font-weight: 600;
     color: lighten($color: $secondaryclr, $amount: 40);
 }
+
+@media only screen and (max-width: 380px) {
+    .navbar-container {
+        position: absolute;
+        width: 95%;
+        margin-left: 15.5%;
+        height: 65px;
+    }
+}
