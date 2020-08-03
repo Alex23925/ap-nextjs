@@ -17,7 +17,7 @@ export class Services extends Component {
                         <FontAwesomeIcon
                             className="icon icon--styles"
                             icon={faSwatchbook}
-                            style={{ width: "50px" }}
+                            style={{ width: "52px" }}
                         />
                     ),
                     title: "Publishing Packages",
@@ -30,7 +30,7 @@ export class Services extends Component {
                         <FontAwesomeIcon
                             className="icon icon--styles"
                             icon={faEdit}
-                            style={{ width: "50px" }}
+                            style={{ width: "52px" }}
                         />
                     ),
                     title: "Editorial & Add-Ons",
@@ -43,7 +43,7 @@ export class Services extends Component {
                         <FontAwesomeIcon
                             className="icon icon--styles"
                             icon={faCubes}
-                            style={{ width: "50px" }}
+                            style={{ width: "52px" }}
                         />
                     ),
                     title: "Marketing Packages",
